@@ -1,0 +1,125 @@
+@media (max-width:1324px){
+    .header{
+        max-width: 100%;
+    }
+}
+
+
+@media (max-width:1050px){
+    .fix-with {
+        margin: auto;
+        width: 100%;
+        padding: 3px 10px 0px;
+        box-sizing:  border-box;
+    }
+}
+
+
+@media (max-width:1024px){
+    .header-right ul li {
+        line-height: 48px;
+    }
+}
+
+
+@media (max-width:946px){
+    .header-right ul li {
+        line-height: 45px;
+    }
+    .contain h1 {
+        font-size: 26px;}
+}
+
+.header-right ul li:first-child a {
+    border-left: none;
+}
+
+
+
+@media (max-width:776px){
+    .service-item h2 {
+        font-size: 22px;
+    }
+    .blog-right-notification {
+        margin-top: -241px;
+    }
+}
+
+
+
+@media (max-width:719px){
+    .header-left {
+        text-align: center;
+        width: 100%;
+    }
+      .header-left img {
+            max-width: 20%;
+        }
+    
+    .header-right {
+        width: 100%;
+        float: right;
+    }
+    .header-right ul {
+        text-align: center;
+    }
+    .header-right ul li {
+        border-top: 1px solid white;
+    }
+    .header-right ul li a{
+        padding: 9px 9px;
+    }
+    .header-right ul li:first-child a {
+        border-left: 1px solid white;
+    }
+    .banner {
+        padding-bottom: 0px;
+    }
+    .service-item h2 {
+        font-size: 18px;
+    }
+    .service-item span {
+        font-size: 23px;
+        height: 50px;
+        width: 50px;
+        line-height: 56px;
+    }
+}
+@media (max-width:686px){
+    .blog-item {
+        width: 100%;
+        margin-bottom: 20px;}
+
+        .blog-right-notification {
+            width: 100%;
+            margin-top: 0px;
+        }
+        .service-item {
+            margin-top: 15px;
+            width: 100%;
+        }
+        .contain h1 {
+            font-size: 22px;
+            max-width: 309px;
+            margin-top: 9px;
+            padding: 8px;
+        }
+        .social-menu li a {
+            padding: 5px;
+            font-size: 20px;
+        }
+        .footer-left {
+            width: 50%;
+        }
+}
+
+
+@media (max-width:512px){
+    .header-right ul li{
+        border-top: none;
+    }
+    .header-right ul li a {
+        font-size: 19px;
+        padding: 11px 6px;
+    }
+}
